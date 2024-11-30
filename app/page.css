@@ -1,0 +1,11 @@
+.grid-bg {
+  background-image: linear-gradient(rgba(50, 0, 0, 0.05) 1px, transparent 0),
+    linear-gradient(90deg, rgba(50, 0, 0, 0.05) 1px, transparent 0);
+  background-size: 15px 15px;
+  background-color: #d8d8d8;
+}
+
+/* 添加暗黑模式样式 */
+:is(.dark) .grid-bg {
+  background-color: #1b1d1f;
+}
